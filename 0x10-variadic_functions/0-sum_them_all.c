@@ -12,8 +12,8 @@
 int sum_them_all(const unsigned int n, ...)
 {
 
-va_list li
-unsigned int i, sum =0;
+va_list li;
+unsigned int i, sum = 0;
 
 va_start(li, n);
 
